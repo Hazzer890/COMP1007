@@ -1,0 +1,68 @@
+# My System Should Include:
+
+## Foundations
+- Mission Class
+    - Constructor
+    - Methods
+        - Getters + Setters
+        - Astronaut list
+- Astronaut Class
+    - Constructor
+    - Methods
+        - Getters + Setters
+- File Handling
+    - Input CSV files
+    - Confirm delimiting/splitting function
+    - Transfer data into Missions + Astronauts
+    - Write to CSV file
+- Linked List (Generic)
+    - Doubly Linked Double Headed (?)
+    - Add/Remove/Get/Size
+- Menu (CLI IO)
+    - Colours + Special Character defines
+    - "GUI" CLI menu
+        - Printing options
+        - Printing Selected
+    - View Missions
+    - View Astronauts
+    - Optional Menus
+        - Mission Details
+        - Astronaut Details
+    - Generic Inputs
+        - String
+        - Int
+        - Boolean
+        - Error Handling for above
+    - Hold + Continue
+        - Hang loop until "enter"
+    - Close/Finish
+        - Print closing statement 
+        - close scanner
+- Mission Controller
+    - Main
+        - Manage Functions - user input
+        - Methods for amalgamating foundations for desired features
+        - Add/Edit/View
+
+## Features
+- View all missions.
+- View all manned missions.
+- View all unmanned missions.
+- View a mission's astronauts.
+    - Filter for code
+    - iterate thru astronauts
+- Add a new mission.
+    - User inputs
+        - Error handling on generic inputs
+- Edit an existing mission.
+    - Edit simple variables 
+        - User inputs 
+    - Edit astronauts
+        - Add Astronaut list
+        - Remove Astronaut list
+- Provide a summary of missions' success rates (average, highest, lowest).
+    - Print
+- List astronauts for a given nationality.
+    - Filter Astronauts for an attribute
+    - Print
+
